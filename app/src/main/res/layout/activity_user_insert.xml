@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/front_background_one"
+    tools:context=".UserInsertActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:fontFamily="@font/kalpurush"
+                android:text="@string/insert_সদস্যেরনাম_English"
+                android:textColor="@color/textColorGray"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/userInsert_englishName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/just_border"
+                android:ems="10"
+                android:elevation="3dp"
+                android:fontFamily="@font/kalpurush"
+                android:textColor="@color/textColorGray"
+                android:paddingLeft="10dp"
+                android:drawablePadding="7dp"
+                android:drawableLeft="@mipmap/user_round"
+                android:drawableTint="@color/textColorGray"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_fuck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/insert_সদস্যেরনাম_বাংলায়"
+                android:fontFamily="@font/kalpurush"
+                android:textColor="@color/textColorGray"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/userInsert_banglaName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/just_border"
+                android:ems="10"
+                android:textColor="@color/textColorGray"
+                android:elevation="3dp"
+                android:fontFamily="@font/kalpurush"
+                android:paddingLeft="10dp"
+                android:drawablePadding="7dp"
+                android:drawableLeft="@mipmap/user_round"
+                android:drawableTint="@color/textColorGray"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/insert_সদস্যেরছবি"
+                android:fontFamily="@font/kalpurush"
+                android:textColor="@color/textColorGray"
+                android:textStyle="bold"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraint_Userimage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/just_border"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/insert_banglaName">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/userInsert_imageView"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@mipmap/user_round"
+                    app:civ_border_color="@color/colorPrimary"
+                    app:civ_border_width="3dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textUaerNamefasik"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:fontFamily="@font/kalpurush"
+                    android:text="@string/insert_ছবিরব্যাক্তিরনাম"
+                    android:textColor="@color/textColorGray"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="@+id/userInsert_image_name"
+                    app:layout_constraintTop_toTopOf="@+id/userInsert_imageView" />
+
+                <EditText
+                    android:id="@+id/userInsert_image_name"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/just_border"
+                    android:ems="10"
+                    android:elevation="3dp"
+                    android:fontFamily="@font/kalpurush"
+                    android:paddingLeft="10dp"
+                    android:drawablePadding="7dp"
+                    android:drawableLeft="@mipmap/username"
+                    android:drawableTint="@color/textColorGray"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/textColorGray"
+                    app:layout_constraintBottom_toBottomOf="@+id/userInsert_imageView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/userInsert_imageView"
+                    app:layout_constraintTop_toBottomOf="@+id/textUaerNamefasik" />
+
+                <Button
+                    android:id="@+id/userSelect_image"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/border_small_button"
+                    android:backgroundTint="@color/yellow"
+                    android:padding="5dp"
+                    android:text="@string/insert_ছবিসিলেক্টকরুন"
+                    android:fontFamily="@font/bensen_handwriting"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:elevation="3dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/userInsert_image_name"
+                    app:layout_constraintStart_toStartOf="@+id/userInsert_imageView"
+                    app:layout_constraintTop_toBottomOf="@+id/userInsert_imageView" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/insert_সদস্যেরমোবাইলনম্বর_English"
+                android:fontFamily="@font/kalpurush"
+                android:textColor="@color/textColorGray"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/userInsert_english_mobile_no"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/just_border"
+                android:ems="10"
+                android:elevation="3dp"
+                android:fontFamily="@font/kalpurush"
+                android:drawablePadding="7dp"
+                android:drawableTint="@color/textColorGray"
+                android:drawableLeft="@mipmap/call_edittext"
+                android:textColor="@color/textColorGray"
+                android:inputType="number"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/insert_সদস্যেরমোবাইলনম্বর_বাংলায়"
+                android:fontFamily="@font/kalpurush"
+                android:textColor="@color/textColorGray"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/userInsert_bangla_mobile_no"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/just_border"
+                android:ems="10"
+                android:elevation="3dp"
+                android:fontFamily="@font/kalpurush"
+                android:drawablePadding="7dp"
+                android:drawableTint="@color/textColorGray"
+                android:drawableLeft="@mipmap/call_edittext"
+                android:textColor="@color/textColorGray"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/insert_সদস্যেরডেজিগনেশন"
+                android:fontFamily="@font/kalpurush"
+                android:textColor="@color/textColorGray"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/userInsert_designation"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/just_border"
+                android:ems="10"
+                android:elevation="3dp"
+                android:fontFamily="@font/kalpurush"
+                android:drawablePadding="7dp"
+                android:drawableLeft="@mipmap/designation_edittext"
+                android:drawableTint="@color/textColorGray"
+                android:textColor="@color/textColorGray"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/kalpurush"
+                android:layout_marginRight="16dp"
+                android:text="@string/insert_সদস্যেরইমেইল"
+                android:textColor="@color/textColorGray"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/userInsert_email"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/just_border"
+                android:ems="10"
+                android:elevation="3dp"
+                android:paddingLeft="10dp"
+                android:fontFamily="@font/kalpurush"
+                android:drawableLeft="@mipmap/at_the_rate_of"
+                android:drawableTint="@color/textColorGray"
+                android:drawablePadding="7dp"
+                android:textColor="@color/textColorGray"
+                android:inputType="textEmailAddress" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="16dp">
+
+                <ProgressBar
+                    android:id="@+id/userInsert_progressbar"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:visibility="gone"
+                    android:layout_gravity="center" />
+
+                <Button
+                    android:id="@+id/userInsert_member_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#6A45C1"
+                    android:textColor="@color/white"
+                    android:background="@drawable/border_small_button"
+                    android:enabled="false"
+                    android:padding="5dp"
+                    android:elevation="3dp"
+                    android:fontFamily="@font/bensen_handwriting"
+                    android:text="@string/insert_নতুনসদস্যযুক্তকরুন"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

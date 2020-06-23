@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_round"
+    android:backgroundTint="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/wifi"
+        android:tint="@color/yellow"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/mainActivity_networkDialog_Ooops"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/kalpurush"
+        android:textColor="@color/yellow"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginTop="-25dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/mainActivity_networkDialog_কোনওইন্টারনেটসংযোগপাওয়াযায়নি"
+        android:fontFamily="serif"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/red"
+        android:layout_marginTop="16dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+    <Button
+        android:id="@+id/dialogNetwork_tryAgainbtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/contactAdapter_dialogUserDetails_আবারচেষ্টাকরুন"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/yellow"
+        android:background="@drawable/search_background"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#895DF2</color>
+    <color name="colorPrimaryDark">#5E40AE</color>
+    <color name="colorAccent">#895DF2</color>
+
+    <color name="statusBar">#FDC41D</color>
+
+    <color name="editprimary">#CC470F</color>
+    <color name="editdark">#CC470F</color>
+    <color name="editaccent">#CC470F</color>
+
+    <color name="deepYellow">#FDC41D</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#F8BC3C</color>
+    <color name="yellowLight">#FED664</color>
+    <color name="red">#FA2B32</color>
+    <color name="black">#000000</color>
+    <color name="gray_light">#666567</color>
+    <color name="lightPrimaryColor">#8C65F3</color>
+
+    <color name="textColorGray">#424141</color>
+
+</resources>

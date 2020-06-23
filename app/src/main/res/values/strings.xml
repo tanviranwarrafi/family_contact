@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">পরিবার</string>
+
+    <!-- Admin panel Home -->
+    <string name="adminPanelHome_নতুনসদস্য">নতুন সদস্য</string>
+    <string name="adminPanelHome_সকলসস্যবৃন্দ">সকল সস্যবৃন্দ</string>
+    <string name="adminPanelHome_DevelopedBy">Developed By</string>
+    <string name="adminPanelHome_TanvirAnwarRafi">Md. Tanvir Anwar Rafi</string>
+    <string name="adminPanelHome_tanviranwarrafigmailcom">tanviranwarrafi@gmail.com</string>
+    <string name="adminPanelHome_01521438885">Contact No: 01521438885</string>
+
+    <!-- Activity Admin Insert + Admin Update + User Insert -->
+    <string name="insert_সদস্যেরনাম_English">সদস্যের নাম (In English)*</string>
+    <string name="insert_সদস্যেরনাম_বাংলায়">সদস্যের নাম (বাংলায়)*</string>
+    <string name="insert_সদস্যেরছবি">সদস্যের ছবি*</string>
+    <string name="insert_ছবিরব্যাক্তিরনাম">ছবির ব্যাক্তির নাম</string>
+    <string name="insert_ছবিসিলেক্টকরুন">ছবি সিলেক্ট করুন</string>
+    <string name="insert_সদস্যেরমোবাইলনম্বর_English">সদস্যের মোবাইল নম্বর (In English)*</string>
+    <string name="insert_সদস্যেরমোবাইলনম্বর_বাংলায়">সদস্যের মোবাইল নম্বর (বাংলায়)*</string>
+    <string name="insert_সদস্যেরডেজিগনেশন">সদস্যের ডেজিগনেশন</string>
+    <string name="insert_সদস্যেরইমেইল">সদস্যের ই-মেইল (In English)</string>
+
+    <string name="insert_নতুনসদস্যযুক্তকরুন">নতুন সদস্য যুক্ত করুন</string>
+    <string name="updateAdmin_সদস্যকেআপডেটকরুন">সদস্যকে আপডেট করুন</string>
+
+    <!-- User Insert Activity Java Class -->
+    <string name="userInsertActivity_mobileNoMustBeInElevenDigit">১১ ডিজিটের মোবাইল নম্বর দিন</string>
+    <string name="userInsertActivity_invalidEmailAddress">ই-মেইল এড্রেসটি সঠিক নয়</string>
+
+    <!-- Login Activity -->
+    <string name="login_আপনিকিআনসারপরিবারেরসদস্য">আপনি কি আনসার পরিবারের সদস্য?</string>
+    <string name="login_হ্যা">হ্যা</string>
+    <string name="login_না">না</string>
+    <string name="login_আপনিএইপরিবারেরসদস্যহয়েথাকলেলগিনকরুন">আপনি আনসার পরিবারের সদস্য হয়ে থাকলে লগিন করুন</string>
+    <string name="login_ইউজারনেইমটিলিখুন">ইউজার নেইমটি লিখুন</string>
+    <string name="login_গোপনপাসওয়ার্ডটিলিখুন">গোপন পাসওয়ার্ডটি লিখুন</string>
+    <string name="login_পাসওয়ার্ডদেখুন">পাসওয়ার্ড দেখুন</string>
+    <string name="login_লগিন">লগিন</string>
+    <string name="login_এইঅ্যাাপটিআপনারজন্যয়অনুগ্রহপুর্বকবেরহয়েযান">এই অ্যাাপটি আপনার জন্য নয় \n অনুগ্রহ পুর্বক বের হয়ে যান</string>
+    <string name="login_এডমিনপ্যানেল">এডমিন প্যানেল</string>
+    <string name="login_সকলসস্যবৃন্দ">সকল সস্যবৃন্দ</string>
+    <string name="login_বাউন্ডুলেডেভেলপার">বাউন্ডুলে ডেভেলপার © সকল তথ্য সংরক্ষিত</string>
+    <string name="login_ভার্সন">ভার্সন ১.০.০</string>
+
+    <string name="login_showSnackbar">সঠিক ইউজার নেইম ও পাসওয়ার্ড দিয়ে লগিন করুন</string>
+    <string name="login_getOutSnackbar">অনুগ্রহ পূর্বক আপনি এই অ্যাাপ থেকে বের হয়ে যান</string>
+
+    <!-- Login Activity -->
+    <string name="loginActivity_congratulationsToast">অভিনন্দন!!</string>
+    <string name="loginActivity_ErrorLogin">অনুগ্রহ পূর্বক সঠিক ইউজারনেইম ও পাসওয়ার্ড দিন</string>
+
+    <!-- Main Activity -->
+    <string name="mainActivity_সার্চ">সার্চ</string>
+    <string name="mainActivity_পরিবারেরসদস্যবৃন্দ">পরিবারের সদস্যবৃন্দ</string>
+    <string name="mainActivity_এখানেসার্চকরুন">এখানে সার্চ করুন...</string>
+
+    <!-- Main Activity Java Class -->
+    <string name="mainActivity_adminContactNo">01518482707</string>
+    <string name="mainActivity_signingIn">সাইন ইন হচ্ছে...</string>
+    <string name="mainActivity_floatingDialog_pleaseentervalidusernameandpassword">সঠিক ইউজারনেইম ও পাসওয়ার্ড দিন</string>
+    <string name="mainActivity_floatingDialog_LoginSuccessful">লগিন সাকসেসফুল</string>
+    <string name="mainActivity_snackbar_noInternet">আপনার ইন্টারনেট সংযোগ চালু করুন</string>
+    <string name="mainActivity_networkDialog_Ooops">Ooops !!</string>
+    <string name="mainActivity_networkDialog_কোনওইন্টারনেটসংযোগপাওয়াযায়নি">কোন ইন্টারনেট সংযোগ পাওয়া যায় নি \n আপনার সংযোগটি চালু করুন</string>
+
+    <!-- Contact Adapter -->
+    <string name="contactAdapter_dialogUserDetails_sorry">দুঃখিত</string>
+    <string name="contactAdapter_dialogUserDetails_noImageFound">এর কোন ছবি পাওয়া যায় নি</string>
+    <string name="contactAdapter_dialogUserDetails_plusEightEight">+৮৮</string>
+    <string name="contactAdapter_dialogUserDetails_noEmailFound">কোন ই-মেইল পাওয়া যায় নি</string>
+    <string name="contactAdapter_dialogUserDetails_noDesignationFound">কোন ডেজিগনেশন পাওয়া যায় নি</string>
+    <string name="contactAdapter_dialogUserDetails_helloEmail">হ্যালো</string>
+    <string name="contactAdapter_dialogUserDetails_yourEmailSubject">আপনার ই-মেইল সাবজেক্ট লিখুন</string>
+    <string name="contactAdapter_dialogUserDetails_আবারচেষ্টাকরুন">আবার চেষ্টা করুন</string>
+    <string name="contactAdapter_dialogUserDetails_yourEmailDescription">এখানে আপনার ই-মেইলের ডেস্ক্রিপশন লিখুন</string>
+
+    <!-- Admin Show Activity -->
+    <string name="showActivity_এখানেসার্চকরুন">এখানে সার্চ করুন...</string>
+
+    <!-- Contact List Item Layout -->
+    <string name="contactListItemlayout_তানভীরআনয়াররাফি">তানভীর আনয়ার রাফি</string>
+    <string name="contactListItemlayout_০১৫২১৪৩৮৮৮৫">০১৫২১৪৩৮৮৮৫</string>
+
+    <!-- Dialog Admin -->
+    <string name="dialogAdmin_দয়াকরেনিশ্চিতকরুন">অনুগ্রহ পূর্বক নিশ্চিত করুন</string>
+    <string name="dialogAdmin_আপনিকিএইইউজারকেডিলিটঅথবাআপডেটকরতেচান">আপনি কি এই ইউজারকে ডিলিট অথবা আপডেট করতে চান?</string>
+    <string name="dialogAdmin_ডিলিট">ডিলিট</string>
+    <string name="dialogAdmin_আপডেট">আপডেট</string>
+    <string name="dialogAdmin_apniKi">আপনি কি</string>
+    <string name="dialogAdmin_deleteOrUpdateKorteChan">কে ডিলিট অথবা আপডেট করতে চান?</string>
+
+    <!-- Dialog Floating-->
+    <string name="dialogFloating_নতুনসদস্যনিবন্ধনকরতেএডমিনেরসাথেযোগঅ্যাোগকরুনঅথবালগিনকরুন">নতুন সদস্য নিবন্ধন করতে সাদমানের সাথে যোগাযোগ করুন অথবা লগিন করুন</string>
+    <string name="dialogfloating_কলএডমিন">কল সাদমান</string>
+    <string name="dialogfloating_লগিন">লগিন</string>
+    <string name="dialogfloating_ইউজারনেইমটিলিখুন">ইউজার নেইমটি লিখুন</string>
+    <string name="dialogfloating_গোপনপাসওয়ার্ডটিলিখুন">গোপন পাসওয়ার্ডটি লিখুন</string>
+    <string name="dialogfloating_রিমেম্বারপাসওয়ার্ড">রিমেম্বার পাসওয়ার্ড</string>
+    <string name="dialogfloating_অনুমতিনেই">অনুমতি নেই</string>
+
+    <!-- Dialog User Details -->
+    <string name="dialogUserDetails_তানভীরআনোয়াররাফি">মোঃ তানভীর আনোয়ার রাফি</string>
+    <string name="dialogUserDetails_ডেজিগনেশন">ডেজিগনেশন</string>
+    <string name="dialogUserDetails_০১৫২১৪৩৮৮৮৫">০১৫২১৪৩৮৮৮৫</string>
+    <string name="dialogUserDetails_tanviranwarrafigmailcom">tanviranwarrafi@gmail.com</string>
+
+</resources>
