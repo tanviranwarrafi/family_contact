@@ -18,6 +18,6 @@ This project is like a contact book. Through this app, family members will be ab
 
 ### Screenshots
 
-<img src="screenshots/front_screen.jpg" width="200"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="screenshots/first_login.jpg" width="200"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="screenshots/please_exit.jpg" width="200"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="screenshots/insert.jpg" width="200">  
+<img src="screenshots/front_screen.jpg" width="185"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="screenshots/first_login.jpg" width="185"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="screenshots/please_exit.jpg" width="185"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="screenshots/insert.jpg" width="185">  
 
-<img src="screenshots/landing_page.jpg" width="200"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="screenshots/info.jpg" width="200"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="screenshots/call_admin.jpg" width="200"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="screenshots/another_login.jpg" width="200"> 
+<img src="screenshots/landing_page.jpg" width="185"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="screenshots/info.jpg" width="185"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="screenshots/call_admin.jpg" width="185"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="screenshots/another_login.jpg" width="185"> 
